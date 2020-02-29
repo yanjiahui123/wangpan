@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DOWNLOAD	process_pool.h	3;"	d
+MMAPSIZE	process_pool.h	4;"	d
+SRCS	makefile	/^SRCS:=$(wildcard *.c)                                                                                                                                                                                          $/;"	m
+buf	process_pool.h	/^    char buf[1024];$/;"	m	struct:__anon2
+busy	process_pool.h	/^    short busy;$/;"	m	struct:__anon1
+change_st_mode	cmd.c	/^void change_st_mode(char *perm,struct stat buf)$/;"	f
+change_time_type	cmd.c	/^void change_time_type(char *t)$/;"	f
+childhandle	child.c	/^void childhandle(int fds,int log_fd)$/;"	f
+cmd	process_pool.h	/^}cmd,*pcmd;$/;"	t	typeref:struct:__anon3
+cmd_buf	process_pool.h	/^    char cmd_buf[1024];$/;"	m	struct:__anon3
+cmd_handle	cmd.c	/^int cmd_handle(int new_fd,struct sockaddr_in client,int log_fd)$/;"	f
+cmd_len	process_pool.h	/^    int cmd_len;$/;"	m	struct:__anon3
+data	process_pool.h	/^}data,*pdata;$/;"	t	typeref:struct:__anon2
+datalen	process_pool.h	/^    int datalen;$/;"	m	struct:__anon2
+do_cd	cmd.c	/^void do_cd(int new_fd,pcmd pc)$/;"	f
+do_gets	cmd.c	/^void do_gets(int new_fd,pcmd pc)$/;"	f
+do_ls	cmd.c	/^void do_ls(int new_fd,pcmd pc)$/;"	f
+do_mkdir	cmd.c	/^void do_mkdir(int new_fd,pcmd pc)$/;"	f
+do_puts	cmd.c	/^void do_puts(int new_fd,pcmd pc)$/;"	f
+do_pwd	cmd.c	/^void do_pwd(int new_fd,pcmd pc)$/;"	f
+do_remove	cmd.c	/^void do_remove(int new_fd,pcmd pc)$/;"	f
+exitfds	main.c	/^int exitfds[2];$/;"	v
+fds	process_pool.h	/^    int fds;$/;"	m	struct:__anon1
+file_stat	cmd.c	/^void file_stat(char *res,char *filename)$/;"	f
+get_salt	login_verify.c	/^void get_salt(char *salt,char *passwd)$/;"	f
+is_file_exists	transfer_file.c	/^int is_file_exists(char *filename)$/;"	f
+log_write	log_write.c	/^void log_write(int log_fd,char * log_buf)$/;"	f
+login_verify	login_verify.c	/^int login_verify(int new_fd)$/;"	f
+main	main.c	/^int main(int argc,char *argv[])$/;"	f
+makechild	child.c	/^void makechild(processdata *pManage,int processNum,int log_fd)$/;"	f
+mmap_send_file	mmap_send_file.c	/^int mmap_send_file(int new_fd,char *filename)$/;"	f
+pcmd	process_pool.h	/^}cmd,*pcmd;$/;"	t	typeref:struct:__anon3
+pdata	process_pool.h	/^}data,*pdata;$/;"	t	typeref:struct:__anon2
+pid	process_pool.h	/^    pid_t pid;$/;"	m	struct:__anon1
+processdata	process_pool.h	/^}processdata;$/;"	t	typeref:struct:__anon1
+recv_fd	send_fd.c	/^void recv_fd(int sockpairr,int *fd)$/;"	f
+recv_file	transfer_file.c	/^int recv_file(int new_fd)$/;"	f
+recv_n	recv_n.c	/^void recv_n(int new_fd,char *buf,int len)$/;"	f
+semid	main.c	/^static key_t semid;$/;"	v	file:
+send_fd	send_fd.c	/^void send_fd(int sockpairw,int fd)$/;"	f
+send_file	transfer_file.c	/^int send_file(int new_fd,char * filename)$/;"	f
+send_n	recv_n.c	/^void send_n(int new_fd,char *buf,int len)$/;"	f
+sigfunc	main.c	/^void sigfunc(int signum)$/;"	f
+tcp_init	tcp_init.c	/^int  tcp_init(int *sfd,char *ip,char *port)$/;"	f
+tranfile	tranFile.c	/^int tranfile(int new_fd)$/;"	f

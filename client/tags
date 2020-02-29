@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+SRCS	makefile	/^SRCS:=$(wildcard *.c)                                                                                                                                                                                          $/;"	m
+buf	client.h	/^    char buf[2000];$/;"	m	struct:__anon1
+cmd	client.h	/^}cmd,*pcmd;$/;"	t	typeref:struct:__anon2
+cmd_buf	client.h	/^    char cmd_buf[2000];$/;"	m	struct:__anon2
+cmd_len	client.h	/^    int cmd_len;$/;"	m	struct:__anon2
+data	client.h	/^}data,*pdata;$/;"	t	typeref:struct:__anon1
+deal_cmd	deal_cmd.c	/^void deal_cmd(char *cmd)$/;"	f
+is_file_exits	transfer_file.c	/^int is_file_exits(char *filename)$/;"	f
+is_file_exits_tmp	transfer_file.c	/^int is_file_exits_tmp(char *filename)$/;"	f
+judge	judge.c	/^void judge(pcmd pc,pdata pd,int sockfd)$/;"	f
+len	client.h	/^    int len;$/;"	m	struct:__anon1
+login_verify	login_verify.c	/^int login_verify(int sockfd)$/;"	f
+main	client.c	/^int main(int argc,char *argv[])$/;"	f
+pcmd	client.h	/^}cmd,*pcmd;$/;"	t	typeref:struct:__anon2
+pdata	client.h	/^}data,*pdata;$/;"	t	typeref:struct:__anon1
+recv_file	transfer_file.c	/^int recv_file(int new_fd)$/;"	f
+recv_n	send_n.c	/^void recv_n(int sockfd,char *buf,int len)$/;"	f
+send_file	transfer_file.c	/^int send_file(int new_fd,char *filename)$/;"	f
+send_n	send_n.c	/^void send_n(int sockfd,char *buf,int len)$/;"	f
